@@ -1,4 +1,5 @@
 <?php
+$n = rand(1, 13);
 switch ($n){
     case 1: echo "Учим буквы"; break;
     case 2: echo "Учим таблицу умножения"; break;
