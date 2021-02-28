@@ -4,4 +4,6 @@
       ?>
       	<div style="background-color: red; width: <?php echo "{$r}px" ?>; height: <?php echo "{$r}px" ?>; border-radius: 50%;"></div>
 	<?php
+    		$S = $p * ((int)$r * 2);
 	?>
+    	<div><?php echo $S ?></div>
